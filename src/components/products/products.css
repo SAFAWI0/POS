@@ -5,6 +5,7 @@
 .delete {
   color: red;
   font-size: 30px;
+  cursor: pointer;
 }
 .delete-edit {
   display: flex;

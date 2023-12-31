@@ -42,7 +42,7 @@ const EditProducts = () => {
   return (
     <>
       <div>
-        <FaRegEdit className="editbu" onClick={showModal}>
+        <FaRegEdit className="editbu" onClick={showModal} style={{ cursor: "pointer"}}>
           Edit Products{" "}
         </FaRegEdit>
         <Modal

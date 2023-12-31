@@ -1,0 +1,84 @@
+.contentP {
+  margin: 80px;
+}
+
+.delete {
+  color: red;
+  font-size: 30px;
+}
+.delete-edit {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: -40px;
+  font-size: 30px;
+  color: blue;
+
+}
+
+.search-box {
+  display: flex;
+  border: 1px solid black;
+  border-radius: 50px;
+  overflow: hidden;
+  align-items: center;
+  height: 30px;
+}
+.search-box button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.delete:hover {
+  color: rgb(201, 39, 39);
+}
+.delete-edit:hover {
+  color: #000;
+}
+
+.search-edit {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.contentP .grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.contentP .grid .content-product {
+  border: 1px solid #ccc;
+  padding: 10px;
+  box-shadow: 0 0 4px #000;
+}
+
+.contentP .grid .content-product img {
+  width: 100%;
+  height: auto;
+}
+
+.contentP .grid .content-product .content-card {
+  text-align: center;
+}
+
+.contentP .grid .content-product .content-card p {
+  font-weight: bold;
+}
+
+.contentP .haed {
+  font-weight: bold;
+  font-size: 24px;
+  margin-bottom: 18px;
+  text-align: center;
+}
+
+
+@media screen and (max-width: 430px) {
+  .search-box {
+    width: 150px;
+  }
+}

@@ -1,0 +1,39 @@
+.header {
+  background-color: #eee;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 999;
+  
+}
+
+.header .contentH {
+ 
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header .contentH ul {
+  display: flex;
+  gap: 20px;
+  list-style-type: none;
+  font-weight: bolder;
+}
+.header .contentH ul li a {
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+.header .contentH ul li a:hover{
+  color: red;
+}
+
+@media screen and (max-width: 430px) {
+  .header .contentH ul {
+    gap: 10px;
+  }
+}

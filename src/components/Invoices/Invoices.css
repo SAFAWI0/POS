@@ -1,0 +1,38 @@
+.invoices {
+  margin-top: 80px;
+}
+
+.contentI {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.invoice-item {
+  background-color: #f4f4f4;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+  text-align: center;
+}
+.invoice-item img{
+    margin-bottom: 20px;
+}
+
+.invoice-item:hover {
+  transform: translateY(-5px);
+}
+
+.invoice-item p {
+  margin: 5px 0;
+  font-size: 16px;
+}
+
+.invoice-item img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+
+}
+
